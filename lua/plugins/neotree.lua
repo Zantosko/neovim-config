@@ -30,7 +30,6 @@ return {
         { '<leader>e', ':Neotree toggle position=left<CR>', silent = true, desc = 'Left File Explorer' },
         { '<leader>ngs', ':Neotree float git_status<CR>', silent = true, desc = 'Neotree Open Git Status Window' },
         { '<leader>nf', ':Neotree focus<CR>', silent = true, desc = 'Focus File Explorer' },
-
       },
     },
   },

@@ -131,3 +131,8 @@ vim.keymap.set('n', '<CR>', 'o<Esc>', { desc = 'Add newline below' })
 
 -- Press Shift+Enter to add a line above
 vim.keymap.set('n', '<S-CR>', 'O<Esc>', { desc = 'Add newline above' })
+
+-- Navigate to the window on the left (usually NeoTree)
+vim.keymap.set('n', '<leader>n', '<C-w>h', { desc = 'Go to left window' })
+-- Navigate to the window on the right (usually your file buffer)
+vim.keymap.set('n', '<leader>m', '<C-w>l', { desc = 'Go to right window' })
